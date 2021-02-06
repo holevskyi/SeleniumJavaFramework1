@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" parallel="none">
+  <test name="Test1(failed)" parallel="none">
+    <classes>
+      <class name="com.gmail.olevskyih.Selenium4TestNG">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="testSetUp"/>
+          <include name="runTest"/>
+        </methods>
+      </class> <!-- com.gmail.olevskyih.Selenium4TestNG -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
